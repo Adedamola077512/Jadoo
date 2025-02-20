@@ -1,0 +1,62 @@
+.popular-course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Book {
+    font-family: Volkhov;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64.5px;
+    letter-spacing: 0%;
+    color: #14183E;
+}
+.easy-box {
+    display: flex;
+    align-items: center;
+    width: 395;
+    height: 64;
+    top: 2620px;
+    left: 186px;
+
+    gap: 20px;
+}
+.chose {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.92px;
+    letter-spacing: 0%;
+
+}
+.lorem {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.92px;
+    letter-spacing: 0%;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .popular-course {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .Book {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .lorem {
+        font-size: 14px;
+        line-height: 17.92px;
+    }
+    .box3 {
+        /* width: 395px; */
+        width: 110%;
+        margin-left: -30px;
+        margin-top: -40px;
+    }
+    
+}

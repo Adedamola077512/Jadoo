@@ -1,0 +1,43 @@
+.rows {
+    height: 220px;
+
+}
+.cate {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+.offer {
+  font-family: Volkhov;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64.5px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+  .img1 {
+    width: 80px;  
+    height: 80px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  .top {
+    padding-top: 100px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .cate {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .offer {
+      font-size: 34px;
+      line-height: 52px;
+    }
+  }

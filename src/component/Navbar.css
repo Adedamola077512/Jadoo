@@ -1,0 +1,27 @@
+.black {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+#name {
+    gap: 40px;
+}
+.services {
+    border: 1px solid #000;
+    width: 75px;
+    border-radius: 5px;
+    /* padding: 10px; */
+    height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    #name {
+        gap: 0px;
+    }
+    .services {
+        border: none;
+    }
+    #none {
+        display: none;
+    }
+}

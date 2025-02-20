@@ -1,0 +1,28 @@
+.jodoo {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 66px;
+    letter-spacing: 0%;
+    color: #181E4B !important;
+}
+.mm{
+    padding-top: 80px;
+}
+.Press {
+    font-family: Poppins;
+    font-weight: 400;
+    /* font-size: 18px; */
+    line-height: 22.41px;
+    letter-spacing: 0%;
+    color: #5E6282;
+}
+@media screen and (max-width: 768px) {
+    .jodoo {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .mm {
+        padding-top: 20px;
+    }
+}
