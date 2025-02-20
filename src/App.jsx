@@ -7,7 +7,7 @@ import Category from "./component/Category";
 import TopSelling from "./component/TopSelling";
 import Easy from "./component/Easy";
 import Testimonials from "./component/Testimonials";
-import Image from "./component/image";
+import Image from "./component/Image";
 import Information from "./component/Information";
 import Footer from "./component/Footer";
 
