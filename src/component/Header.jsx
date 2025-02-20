@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import blog from '../assets/image (1).jpg'
+import blog from '../assets/travel.jpg'
 
 export const Header = () => {
   return (
